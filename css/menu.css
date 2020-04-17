@@ -5,20 +5,21 @@ header{
 	height: 70px;
 	position: fixed;
 	z-index: 10;
+	left: 0;
+	top: 0;
 }
 /* moodificiacion del ancho */
 .ancho{
-	width: 80%;
+	width: 90%;
 	height: 70px;
-	/*background: red;*/
 	margin: auto;
+	/*background: red;*/
+
 }
 .logo{
-	width: 30%;
+	width: 20%;
 	height: 70px;
-	/*background: blue;*/
 	float:left;
-	padding-top: 1px;
 	box-sizing: border-box;
 
 }
@@ -30,9 +31,9 @@ header{
 	font-family: 'Raleway';
 }
 nav{
-	width: 70%
+	width: 80%;
 	height: 70px;
-	/background: olive;*/
+	/*background: olive;*/
 	float: left;
 	text-align: right;
 	padding-top: 15px;
@@ -54,8 +55,7 @@ nav ul li a{
 nav ul li a:hover{
 	color: #444;
 }
-}
 @font-face{
 	font-family: 'Raleway';
-	src: url(regular.ttf);
+	src: url('../regular.ttf');
 }
