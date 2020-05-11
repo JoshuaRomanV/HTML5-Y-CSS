@@ -5,26 +5,31 @@
 	background-size: cover;
 	width: 100%;
 }
+@font-face{
+	font-family: 'Robot';
+	src:url('../fuentes/MR\ ROBOT.ttf');
+}
 .ancho-letras{
 	top: 150px;
 	position: absolute;
-	width: 100%
-	background: rgba(0,0,0,.8);
+	width: 100%;
 	text-align: center;
 	z-index: 1;
 }
 .letras-slider{
 	width: 80%;
 	margin: auto;
+	text-align: center;
 }
 .letras-slider h1{
-	color: #fff;
-	font-family: 'Raleway';
+	color: white;
+	font-family: 'Robot';
+	font-weight: normal;
 	font-size: 70px;
 }
 .letras-slider p{
 	color: #fff;
-	font-size: 20px;
+	font-size: 50px;
 	font-family: 'Raleway';
-	padding-top: 20px;
+	padding-top: 30px;
 }

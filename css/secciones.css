@@ -24,6 +24,7 @@ h3{
 	color: #777;
 }
 h4{
+	padding-top: 20px;
 	margin-top: 15px;
 	font-size: 16px;
 	margin: auto;
@@ -43,37 +44,23 @@ p{
 	width: 90%;
 	margin: auto;
 }
-.bienvenidos{
-	margin-top: 50px;
-	text-align: center;
-}
+
 .contenedor-columnas{
 	width: 100%;
 	margin: auto;
-	margin-bottom: 50px;
 }
 .columnasx3{
-	width: 33.333%;
+	width:50%;
 	float: left; 
 	padding: 20px 20px;
 	box-sizing: border-box;
 	margin: auto;
+
 }
 .columnasx3 img{
 	width: 100%;
 }
-.banner-1{
-	width: 100%;
-	background: rgba(0,0,0);
-	clear: both;
-	padding-top: 1px;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-bottom: 20px; 
-	text-align: center;
-	box-sizing: border-box;
-	transition: 0.4s;
-}
+
 .banner-1:hover{
 	background: #444;
 	transition: 0.4s;
@@ -87,10 +74,7 @@ p{
 	margin-left: 20px;
 	font-weight: bold; 
 }
-.columnasx3 i{
-	float: left;
-	padding-right: 15px;
-}
+
 .columnasx3 h4{
 	padding-bottom: 15px;
 }
@@ -119,4 +103,19 @@ p{
 	margin-left: 20px;
 	font-weight: bold;
 	padding-bottom: 100px;
+}
+
+.bienvenidos{
+	margin-top: 75px;
+	text-align: center;
+}
+
+
+.bienvenidos2{
+	padding-top: 70px;
+	text-align: center;
+	padding-left: 50px;
+}
+.espacio{
+	margin-bottom: 100px;
 }

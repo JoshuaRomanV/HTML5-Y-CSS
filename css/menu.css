@@ -1,5 +1,9 @@
 
-header{
+@font-face{
+	font-family: 'Robot';
+	src:url('../fuentes/MR\ ROBOT.ttf');
+}
+	header{
 	width: 100%;
 	background: rgba(0,0,0,.8);
 	height: 70px;
@@ -27,8 +31,7 @@ header{
 	color: #fff;
 	font-size: 40px;
 	text-decoration: none;
-	font-weight: bold;
-	font-family: 'Raleway';
+	font-family: 'Robot';
 }
 nav{
 	width: 80%;
